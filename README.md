@@ -1,4 +1,4 @@
-            ipeline - Python Package
+            pipeline - Python Package
 
 A comprehensive, Python-compatible package for collecting, processing, and .analyzing hail events in the DFW (Dallas-Fort Worth) area.
 
@@ -19,10 +19,10 @@ The package is already included in this project. No additional installation need
 ### Python Usage
 
 ```python
-from dfw_pipeline import DFWPipelineRunner
+from all of texas _pipeline import DFWPipelineRunner
 
 # Initialize runner
-runner = DFWPipelineRunner("config.yaml")
+runner = TEXAS PipelineRunner("config.yaml")
 
 # Run full pipeline
 results = runner.run_full_pipeline()
