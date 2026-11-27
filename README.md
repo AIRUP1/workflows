@@ -136,15 +136,14 @@ The pipeline uses `config.yaml` for configuration. Key settings:
 
 ```yaml
 years:
-  - 2024
-  - 2025
+  - 2026
+  - 2026
 state_fips: '48'
-dfw_counties:
-  - Collin
-  - Dallas
-  - Denton
+
+all _counties:
+  - C
   # ... more counties
-output_csv: hail_events_dfw_2024_2025.csv
+output_csv: hail_events_dfw_2025_2026.csv
 geocode_output_csv: hail_events_dfw_2024_2025_neighborhoods.csv
 reverse_geocode:
   enabled: true
@@ -176,7 +175,7 @@ def run_pipeline():
 
 ## Requirements
 
-- Python 3.8+
+- Python 3.11+
 - pandas
 - requests
 - pyyaml
